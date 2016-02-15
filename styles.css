@@ -1,4 +1,17 @@
 /* Global Layout Set-up */
+
+@font-face {
+    font-family: 'ramsteinzregular';
+    src: url('../fonts/ramsteinz-webfont.eot');
+    src: url('../fonts/ramsteinz-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/ramsteinz-webfont.woff2') format('woff2'),
+         url('../fonts/ramsteinz-webfont.woff') format('woff'),
+         url('ramsteinz-webfont.ttf') format('truetype'),
+         url('../fonts/ramsteinz-webfont.svg#ramsteinzregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
 * { 
   box-sizing: border-box;
 }
@@ -12,6 +25,8 @@ body {
   background: #f7f5f0;
   font-family: 'Raleway', sans-serif;
 }
+
+
 /* Link Styles */
 
 a {
@@ -45,7 +60,8 @@ a:hover {
     display: block;
     margin-right: auto;
     color: white;
-    font-family: 'Codystar', cursive;
+    font-family: 'ramsteinzregular', cursive;
+    font-size: 1.9em;
 }
 .nav li {
   padding: 5px 10px 10px 10px;

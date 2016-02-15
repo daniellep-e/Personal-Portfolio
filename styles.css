@@ -26,6 +26,11 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 
+.responsive-image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
 
 /* Link Styles */
 
@@ -120,6 +125,7 @@ header .profile-image:hover {
   border-radius: 6px;
   transition: all .5s;
 }
+
 .card:hover {
   border-color: #FCD878;
 }
@@ -157,14 +163,6 @@ button {
   border-color: #37869A;
   border-width: thin;
   cursor: pointer;
-}
-
-#cider {
-    max-width: 300px;
-}
-
-#soulshine {
-    max-width: 200px;
 }
 
 footer {

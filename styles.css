@@ -61,7 +61,8 @@ a:hover {
     margin-right: auto;
     color: white;
     font-family: 'ramsteinzregular', cursive;
-    font-size: 1.9em;
+    font-weight: 100;
+    font-size: 1.5em;
 }
 .nav li {
   padding: 5px 10px 10px 10px;
@@ -106,7 +107,7 @@ header .profile-image:hover {
   margin: 10px auto;
 } 
 .location {
-  background-color: #ff00;
+  background-color: #efefef;
   color: #2B5D8C;
 }
 .card {
